@@ -532,21 +532,6 @@
       <currency_symbol/>
     </calculation>
     <calculation>
-      <field_name>day_of_year</field_name>
-      <calc_type>DAY_OF_YEAR</calc_type>
-      <field_a>Date</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>None</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
       <field_name>year</field_name>
       <calc_type>YEAR_OF_DATE</calc_type>
       <field_a>Date</field_a>
@@ -592,6 +577,21 @@
       <currency_symbol/>
     </calculation>
     <calculation>
+      <field_name>day_of_month</field_name>
+      <calc_type>DAY_OF_MONTH</calc_type>
+      <field_a>Date</field_a>
+      <field_b/>
+      <field_c/>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <calculation>
       <field_name>week</field_name>
       <calc_type>WEEK_OF_YEAR</calc_type>
       <field_a>Date</field_a>
@@ -609,21 +609,6 @@
     <calculation>
       <field_name>day_of_week</field_name>
       <calc_type>DAY_OF_WEEK</calc_type>
-      <field_a>Date</field_a>
-      <field_b/>
-      <field_c/>
-      <value_type>Integer</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <remove>N</remove>
-      <conversion_mask/>
-      <decimal_symbol/>
-      <grouping_symbol/>
-      <currency_symbol/>
-    </calculation>
-    <calculation>
-      <field_name>day_of_month</field_name>
-      <calc_type>DAY_OF_MONTH</calc_type>
       <field_a>Date</field_a>
       <field_b/>
       <field_c/>
@@ -670,7 +655,7 @@
       <counter_name/>
       <start_at>0</start_at>
       <increment_by>1</increment_by>
-      <max_value>730</max_value>
+      <max_value>365</max_value>
     <cluster_schema/>
     <remotesteps>
       <input>
@@ -710,7 +695,7 @@
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <limit>360</limit>
+    <limit>365</limit>
     <never_ending>N</never_ending>
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>
@@ -759,8 +744,8 @@
     <return_field/>
     <fields>
         <field>
-          <column_name>day_of_year</column_name>
-          <stream_name>day_of_year</stream_name>
+          <column_name>date</column_name>
+          <stream_name>date</stream_name>
         </field>
         <field>
           <column_name>year</column_name>
@@ -775,16 +760,16 @@
           <stream_name>month</stream_name>
         </field>
         <field>
+          <column_name>day_of_month</column_name>
+          <stream_name>day_of_month</stream_name>
+        </field>
+        <field>
           <column_name>week</column_name>
           <stream_name>week</stream_name>
         </field>
         <field>
           <column_name>day_of_week</column_name>
           <stream_name>day_of_week</stream_name>
-        </field>
-        <field>
-          <column_name>day_of_month</column_name>
-          <stream_name>day_of_month</stream_name>
         </field>
     </fields>
     <cluster_schema/>
