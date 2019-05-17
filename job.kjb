@@ -495,8 +495,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1424</xloc>
-      <yloc>304</yloc>
+      <xloc>1168</xloc>
+      <yloc>288</yloc>
     </entry>
     <entry>
       <name>Fill type of tweet table</name>
@@ -530,8 +530,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1136</xloc>
-      <yloc>304</yloc>
+      <xloc>896</xloc>
+      <yloc>288</yloc>
     </entry>
     <entry>
       <name>Clean data</name>
@@ -596,6 +596,32 @@
       <nr>0</nr>
       <xloc>640</xloc>
       <yloc>192</yloc>
+    </entry>
+    <entry>
+      <name>Find tweets types file</name>
+      <description/>
+      <type>FILES_EXIST</type>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x5c;tweets_types.csv</filename>
+      <fields>
+      </fields>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1424</xloc>
+      <yloc>288</yloc>
+    </entry>
+    <entry>
+      <name>Tweets type file log</name>
+      <description/>
+      <type>WRITE_TO_LOG</type>
+      <logmessage>File not found.</logmessage>
+      <loglevel>Basic</loglevel>
+      <logsubject>Error</logsubject>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1424</xloc>
+      <yloc>416</yloc>
     </entry>
   </entries>
   <hops>
@@ -672,20 +698,11 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from>Fill temporal table</from>
-      <to>Create type of tweet table</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Create type of tweet table</from>
       <to>Fill type of tweet table</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -696,6 +713,33 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Fill temporal table</from>
+      <to>Find tweets types file</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Find tweets types file</from>
+      <to>Create type of tweet table</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Find tweets types file</from>
+      <to>Tweets type file log</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>N</evaluation>
       <unconditional>N</unconditional>
     </hop>
   </hops>
