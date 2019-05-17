@@ -481,7 +481,7 @@
     <single_statement>N</single_statement>
     <replace_variables>N</replace_variables>
     <quoteString>N</quoteString>
-    <sql>drop table if exists facts_nelson_samuel&#x3b;&#xd;&#xa;&#xd;&#xa;create table facts_nelson_samuel &#x28;&#xd;&#xa;	id bigint primary key,&#xd;&#xa;	date date,&#xd;&#xa;	country_code varchar&#x28;2&#x29;,&#xd;&#xa;	tweet_type varchar&#x28;10&#x29;,&#xd;&#xa;	size int,&#xd;&#xa;	likes_count int,&#xd;&#xa;	retweet_count int&#xd;&#xa;&#x29;&#x3b;</sql>
+    <sql>DROP TABLE IF EXISTS facts&#x3b;&#xd;&#xa;&#xd;&#xa;CREATE TABLE facts &#x28;&#xd;&#xa;	id BIGINT PRIMARY KEY,&#xd;&#xa;	date DATE,&#xd;&#xa;	country_code VARCHAR&#x28;2&#x29;,&#xd;&#xa;	tweet_type VARCHAR&#x28;10&#x29;,&#xd;&#xa;	size INT,&#xd;&#xa;	likes_count INT,&#xd;&#xa;	retweet_count INT&#xd;&#xa;&#x29;&#x3b;&#xd;&#xa;</sql>
     <set_params>N</set_params>
     <insert_field/>
     <update_field/>

@@ -481,7 +481,7 @@
     <single_statement>N</single_statement>
     <replace_variables>N</replace_variables>
     <quoteString>N</quoteString>
-    <sql>drop table if exists temporal_dimension_nelson_samuel&#x3b;&#xd;&#xa;create table temporal_dimension_nelson_samuel&#x28;&#xa;	date Date primary key,&#xd;&#xa;	year Int,&#xd;&#xa;	quarter Int,&#xa;	month Int,&#xd;&#xa;	day_of_month Int,&#xd;&#xa;	week Int,&#xd;&#xa;	day_of_week Int&#xd;&#xa;&#x29;&#x3b;</sql>
+    <sql>DROP TABLE IF EXISTS temporal_dimension&#x3b;&#xd;&#xa;&#xd;&#xa;CREATE TABLE temporal_dimension &#x28;&#xa;	date DATE PRIMARY KEY,&#xd;&#xa;	year INT,&#xd;&#xa;	quarter INT,&#xa;	month INT,&#xd;&#xa;	day_of_month INT,&#xd;&#xa;	week INT,&#xd;&#xa;	day_of_week INT&#xd;&#xa;&#x29;&#x3b;</sql>
     <set_params>N</set_params>
     <insert_field/>
     <update_field/>

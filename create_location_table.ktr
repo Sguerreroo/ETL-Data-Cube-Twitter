@@ -480,7 +480,7 @@
     <single_statement>N</single_statement>
     <replace_variables>N</replace_variables>
     <quoteString>N</quoteString>
-    <sql>drop table if exists location_dimension_nelson_samuel&#x3b;&#xd;&#xa;&#xd;&#xa;create table location_dimension_nelson_samuel&#x28;&#xa;	country_code varchar&#x28;3&#x29; primary key,&#xd;&#xa;	country varchar&#x28;100&#x29;,&#xd;&#xa;	region varchar&#x28;100&#x29;,&#xd;&#xa;	sub_region varchar&#x28;100&#x29;&#xd;&#xa;&#x29;&#x3b;</sql>
+    <sql>DROP TABLE IF EXISTS location_dimension&#x3b;&#xd;&#xa;&#xd;&#xa;CREATE TABLE location_dimension&#x28;&#xa;	country_code VARCHAR&#x28;2&#x29; PRIMARY KEY,&#xd;&#xa;	country VARCHAR&#x28;100&#x29;,&#xd;&#xa;	region VARCHAR&#x28;100&#x29;,&#xd;&#xa;	sub_region VARCHAR&#x28;100&#x29;&#xd;&#xa;&#x29;&#x3b;</sql>
     <set_params>N</set_params>
     <insert_field/>
     <update_field/>

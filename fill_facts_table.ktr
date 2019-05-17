@@ -729,7 +729,7 @@
     </partitioning>
     <connection>SI2-Local</connection>
     <schema/>
-    <table>facts_nelson_samuel</table>
+    <table>facts</table>
     <commit>1000</commit>
     <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
