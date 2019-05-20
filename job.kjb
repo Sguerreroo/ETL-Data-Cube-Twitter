@@ -331,7 +331,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
+      <xloc>112</xloc>
       <yloc>48</yloc>
     </entry>
     <entry>
@@ -348,7 +348,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>896</xloc>
+      <xloc>1056</xloc>
       <yloc>48</yloc>
     </entry>
     <entry>
@@ -383,8 +383,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1136</xloc>
-      <yloc>48</yloc>
+      <xloc>1392</xloc>
+      <yloc>304</yloc>
     </entry>
     <entry>
       <name>Data base log</name>
@@ -396,7 +396,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>896</xloc>
+      <xloc>1056</xloc>
       <yloc>192</yloc>
     </entry>
     <entry>
@@ -431,8 +431,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1424</xloc>
-      <yloc>48</yloc>
+      <xloc>1008</xloc>
+      <yloc>304</yloc>
     </entry>
     <entry>
       <name>Find data file</name>
@@ -447,7 +447,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>256</xloc>
+      <xloc>272</xloc>
       <yloc>48</yloc>
     </entry>
     <entry>
@@ -460,7 +460,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>256</xloc>
+      <xloc>272</xloc>
       <yloc>192</yloc>
     </entry>
     <entry>
@@ -495,8 +495,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1120</xloc>
-      <yloc>288</yloc>
+      <xloc>128</xloc>
+      <yloc>304</yloc>
     </entry>
     <entry>
       <name>Fill type of tweet table</name>
@@ -530,8 +530,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>800</xloc>
-      <yloc>288</yloc>
+      <xloc>128</xloc>
+      <yloc>560</yloc>
     </entry>
     <entry>
       <name>Clean data</name>
@@ -565,7 +565,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>432</xloc>
+      <xloc>528</xloc>
       <yloc>48</yloc>
     </entry>
     <entry>
@@ -581,7 +581,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>640</xloc>
+      <xloc>768</xloc>
       <yloc>48</yloc>
     </entry>
     <entry>
@@ -594,7 +594,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>640</xloc>
+      <xloc>768</xloc>
       <yloc>192</yloc>
     </entry>
     <entry>
@@ -607,8 +607,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1424</xloc>
-      <yloc>288</yloc>
+      <xloc>576</xloc>
+      <yloc>304</yloc>
     </entry>
     <entry>
       <name>Tweets type file log</name>
@@ -620,8 +620,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1424</xloc>
-      <yloc>432</yloc>
+      <xloc>576</xloc>
+      <yloc>448</yloc>
     </entry>
     <entry>
       <name>Find Country-Region-Subregion file</name>
@@ -636,8 +636,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>448</xloc>
-      <yloc>288</yloc>
+      <xloc>496</xloc>
+      <yloc>560</yloc>
     </entry>
     <entry>
       <name>Country-Region-Subregion file log</name>
@@ -649,8 +649,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>448</xloc>
-      <yloc>432</yloc>
+      <xloc>496</xloc>
+      <yloc>704</yloc>
     </entry>
     <entry>
       <name>Create location table</name>
@@ -684,8 +684,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
-      <yloc>288</yloc>
+      <xloc>816</xloc>
+      <yloc>560</yloc>
     </entry>
     <entry>
       <name>Fill location table</name>
@@ -719,16 +719,16 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>96</xloc>
+      <xloc>1104</xloc>
       <yloc>560</yloc>
     </entry>
     <entry>
-      <name>Create facts table</name>
+      <name>Drop facts table</name>
       <description/>
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;create_facts_table.ktr</filename>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;drop_facts_table.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -754,8 +754,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>336</xloc>
-      <yloc>560</yloc>
+      <xloc>1392</xloc>
+      <yloc>48</yloc>
     </entry>
     <entry>
       <name>Fill facts table</name>
@@ -789,8 +789,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>592</xloc>
-      <yloc>560</yloc>
+      <xloc>1376</xloc>
+      <yloc>832</yloc>
     </entry>
     <entry>
       <name>Success</name>
@@ -799,7 +799,42 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>816</xloc>
+      <xloc>1088</xloc>
+      <yloc>832</yloc>
+    </entry>
+    <entry>
+      <name>Create facts table</name>
+      <description/>
+      <type>TRANS</type>
+      <specification_method>filename</specification_method>
+      <trans_object_id/>
+      <filename>&#x24;&#x7b;Internal.Job.Filename.Directory&#x7d;&#x2f;create_facts_table.ktr</filename>
+      <transname/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <clear_rows>N</clear_rows>
+      <clear_files>N</clear_files>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Basic</loglevel>
+      <cluster>N</cluster>
+      <slave_server_name/>
+      <set_append_logfile>N</set_append_logfile>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <create_parent_folder>N</create_parent_folder>
+      <logging_remote_work>N</logging_remote_work>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1376</xloc>
       <yloc>560</yloc>
     </entry>
   </entries>
@@ -886,15 +921,6 @@
       <unconditional>N</unconditional>
     </hop>
     <hop>
-      <from> BD</from>
-      <to>Create temporal table</to>
-      <from_nr>0</from_nr>
-      <to_nr>0</to_nr>
-      <enabled>Y</enabled>
-      <evaluation>Y</evaluation>
-      <unconditional>N</unconditional>
-    </hop>
-    <hop>
       <from>Fill temporal table</from>
       <to>Find tweets types file</to>
       <from_nr>0</from_nr>
@@ -951,6 +977,24 @@
     <hop>
       <from>Create location table</from>
       <to>Fill location table</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from> BD</from>
+      <to>Drop facts table</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Drop facts table</from>
+      <to>Create temporal table</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
