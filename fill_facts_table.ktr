@@ -486,19 +486,26 @@
       <schema_name/>
     </partitioning>
     <fields>      <field>        <name>ID</name>
+        <rename/>
       </field>      <field>        <name>Day</name>
+        <rename/>
       </field>      <field>        <name>CountryCode</name>
+        <rename/>
       </field>      <field>        <name>TweetType</name>
+        <rename/>
       </field>      <field>        <name>Size</name>
+        <rename/>
       </field>      <field>        <name>RetweetCount</name>
+        <rename/>
       </field>      <field>        <name>Likes</name>
+        <rename/>
       </field>        <select_unspecified>N</select_unspecified>
       <meta>        <name>Day</name>
         <rename>date</rename>
         <type>Date</type>
         <length>-2</length>
         <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
+        <conversion_mask>ddMMyyyy</conversion_mask>
         <date_format_lenient>false</date_format_lenient>
         <date_format_locale/>
         <date_format_timezone/>
